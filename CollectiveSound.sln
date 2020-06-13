@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{23F5A31A-E232-4F6F-9455-A978105971F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectiveSound.Core", "CollectiveSound.Core\CollectiveSound.Core.csproj", "{F99BBA6B-2D71-499B-9806-D104ECA64E0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F99BBA6B-2D71-499B-9806-D104ECA64E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F99BBA6B-2D71-499B-9806-D104ECA64E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F99BBA6B-2D71-499B-9806-D104ECA64E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F99BBA6B-2D71-499B-9806-D104ECA64E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F99BBA6B-2D71-499B-9806-D104ECA64E0A} = {23F5A31A-E232-4F6F-9455-A978105971F3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C76115C-C274-4629-B4EB-5E9F4DAC26FA}
+	EndGlobalSection
+EndGlobal
