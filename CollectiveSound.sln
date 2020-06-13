@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{23F5A31A-E232-4F6F-9455-A978105971F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectiveSound.Core", "CollectiveSound.Core\CollectiveSound.Core.csproj", "{F99BBA6B-2D71-499B-9806-D104ECA64E0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectiveSound.Core", "CollectiveSound.Core\CollectiveSound.Core.csproj", "{F99BBA6B-2D71-499B-9806-D104ECA64E0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectiveSound.EntityFramework", "CollectiveSound.EntityFramework\CollectiveSound.EntityFramework.csproj", "{A6031486-D69A-48EC-B569-DC3B969C8578}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,17 @@ Global
 		{F99BBA6B-2D71-499B-9806-D104ECA64E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F99BBA6B-2D71-499B-9806-D104ECA64E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F99BBA6B-2D71-499B-9806-D104ECA64E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6031486-D69A-48EC-B569-DC3B969C8578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6031486-D69A-48EC-B569-DC3B969C8578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6031486-D69A-48EC-B569-DC3B969C8578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6031486-D69A-48EC-B569-DC3B969C8578}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F99BBA6B-2D71-499B-9806-D104ECA64E0A} = {23F5A31A-E232-4F6F-9455-A978105971F3}
+		{A6031486-D69A-48EC-B569-DC3B969C8578} = {23F5A31A-E232-4F6F-9455-A978105971F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C76115C-C274-4629-B4EB-5E9F4DAC26FA}
