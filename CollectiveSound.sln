@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectiveSound.Core", "Col
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectiveSound.EntityFramework", "CollectiveSound.EntityFramework\CollectiveSound.EntityFramework.csproj", "{A6031486-D69A-48EC-B569-DC3B969C8578}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectiveSound.Application", "CollectiveSound.Application\CollectiveSound.Application.csproj", "{FFE1EA54-FFF5-41D8-8B82-32C0E114154C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectiveSound.Utils", "CollectiveSound.Utils\CollectiveSound.Utils.csproj", "{832B89C4-89C5-4BC1-B3C0-6856B3D67D59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{A6031486-D69A-48EC-B569-DC3B969C8578}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6031486-D69A-48EC-B569-DC3B969C8578}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6031486-D69A-48EC-B569-DC3B969C8578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE1EA54-FFF5-41D8-8B82-32C0E114154C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE1EA54-FFF5-41D8-8B82-32C0E114154C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE1EA54-FFF5-41D8-8B82-32C0E114154C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE1EA54-FFF5-41D8-8B82-32C0E114154C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832B89C4-89C5-4BC1-B3C0-6856B3D67D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832B89C4-89C5-4BC1-B3C0-6856B3D67D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832B89C4-89C5-4BC1-B3C0-6856B3D67D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832B89C4-89C5-4BC1-B3C0-6856B3D67D59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +42,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F99BBA6B-2D71-499B-9806-D104ECA64E0A} = {23F5A31A-E232-4F6F-9455-A978105971F3}
 		{A6031486-D69A-48EC-B569-DC3B969C8578} = {23F5A31A-E232-4F6F-9455-A978105971F3}
+		{FFE1EA54-FFF5-41D8-8B82-32C0E114154C} = {23F5A31A-E232-4F6F-9455-A978105971F3}
+		{832B89C4-89C5-4BC1-B3C0-6856B3D67D59} = {23F5A31A-E232-4F6F-9455-A978105971F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C76115C-C274-4629-B4EB-5E9F4DAC26FA}
