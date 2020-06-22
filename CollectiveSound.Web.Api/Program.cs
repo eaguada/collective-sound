@@ -1,0 +1,61 @@
+using CollectiveSound.Application.Permissions;
+using CollectiveSound.Core.Permissions;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Serilog;
+using Serilog.Events;
+using System;
+
+namespace CollectiveSound.Web.Api
+{
+    public class Program
+    {
+        public static int Main(string[] args)
+        {
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.Debug()
+                .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
+                .Enrich.FromLogContext()
+                .WriteTo.Console()
+                .WriteTo.File(
+                    "Logs/Logs.txt",
+                    fileSizeLimitBytes: 1_000_000,
+                    rollOnFileSizeLimit: true,
+                    shared: true,
+                    flushToDiskInterval: TimeSpan.FromSeconds(1))
+                .CreateLogger();
+
+            try
+            {
+                Log.Information("Starting web host");
+                var host = CreateHostBuilder(args).Build();
+                using (var scope = host.Services.CreateScope())
+                {
+                    var permissionAppService = scope.ServiceProvider.GetService<IPermissionAppService>();
+                    permissionAppService.InitializePermissions(DefaultPermissions.All());
+                }
+
+                host.Run();
+                return 0;
+            }
+            catch (Exception ex)
+            {
+                Log.Fatal(ex, "Host terminated unexpectedly");
+                return 1;
+            }
+            finally
+            {
+                Log.CloseAndFlush();
+            }
+        }
+
+        private static IHostBuilder CreateHostBuilder(string[] args) =>
+                   Host.CreateDefaultBuilder(args)
+                       .ConfigureWebHostDefaults(webBuilder =>
+                       {
+                           webBuilder.UseStartup<Startup>();
+                           webBuilder.UseSerilog();
+                       });
+    }
+}

@@ -7,7 +7,7 @@ namespace CollectiveSound.Application
 {
     public static class ApplicationServiceCollectionExtensions
     {
-        public static IServiceCollection ConfigureNucleusApplication(this IServiceCollection services)
+        public static IServiceCollection ConfigureCollectiveSoundApplication(this IServiceCollection services)
         {
             services.AddAutoMapper(typeof(ApplicationServiceCollectionExtensions));
 
