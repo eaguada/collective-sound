@@ -16,6 +16,8 @@ comment / provide feedback / rate your release in order to get the download link
 
 ## Installation Steps
 
+. Run the solution with VS2019
+
 . Select CollectiveSound.Web.Api as the default project
 
 . Open up the Nuget Package Manager Console, select the project CollectiveSound.EntityFramework and run the command "update-database"
