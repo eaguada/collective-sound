@@ -22,7 +22,7 @@ to sell their unlicensed / unsigned single tracks & EP's for a fixed price.
 
 - Run the project with **F5**
 
-- Open up your terminal at the `CollectiveSound.Web.UI` folder
+- Open up your terminal in the `CollectiveSound.Web.UI` folder
 
 - Run `yarn install`
 
