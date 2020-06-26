@@ -31,6 +31,6 @@ to sell their unlicensed / unsigned single tracks & EP's for a fixed price.
 - Open a new browser tab and go to **http://localhost:8080**
 	
 - The admin credentials are **admin/123qwe**
-
-
+</br>
+</br>
 Project based on [Nucleus](https://github.com/alirizaadiyahsi/Nucleus)
