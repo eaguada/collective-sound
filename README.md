@@ -3,8 +3,6 @@
 This is a platform that will ultimately allow new/upcoming and established electronic music producers
 to sell their unlicensed / unsigned single tracks & EP's for a fixed price.
 
-You can either sell or offer your tracks for free in which case the "buyer" would have to either follow you on social media or
-comment / provide feedback / rate your release in order to get the download link for the full lossless audio file.
 
 ## Requirements
 
@@ -18,19 +16,18 @@ comment / provide feedback / rate your release in order to get the download link
 
 . Select `CollectiveSound.Web.Api` as the default project
 
-. Open up the "**Package Manager Console**" select the `CollectiveSound.EntityFramework` project and run the command `update-database`
+. Open up the "**Package Manager Console**" select the `CollectiveSound.EntityFramework` project 
 
-. Run the project with **F5** (it will go straight to the Swagger API documentation page)
+. Run the `update-database` command
 
-. Open up your terminal on the `CollectiveSound.Web.UI` folder
+. Run the project with **F5**
 
-  . Run the next commands:
+. Open up your terminal at the `CollectiveSound.Web.UI` folder
+
+. Run `yarn install`
+
+. Run `yarn serve`
+
+. Open a new browser tab and go to **http://localhost:8080**
 	
-```bash
-yarn install
-yarn serve
-```
-	
-  . Open a new browser tab and go to **http://localhost:8080**
-	
-  . The admin credentials are **admin/123qwe**
+. The admin credentials are **admin/123qwe**
