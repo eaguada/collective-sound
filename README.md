@@ -1,6 +1,6 @@
 # Collective Sound
 
-This is a platform that will ultimately allow new/upcoming and established electronic music producers
+This is a platform that will allow new/upcoming and established music producers
 to sell their unlicensed / unsigned single tracks & EP's for a fixed price.
 
 
