@@ -8,7 +8,7 @@ to sell their unlicensed / unsigned single tracks & EP's for a fixed price.
 
 - Visual Studio 2019 (w/ Latest updates installed)
 
-- NodeJS with npm/yarn packages installed globally
+- NodeJS with the yarn package installed globally
 
 - Vue CLI & Vue CLI Service
 
