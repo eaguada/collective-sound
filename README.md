@@ -26,10 +26,10 @@ comment / provide feedback / rate your release in order to get the download link
 
   . Run
 	
-	```bash
-	yarn install
-	yarn serve
-	```
+```bash
+yarn install
+yarn serve
+```
 	
   . Open a new browser tab and go to http://localhost:8080
 	
