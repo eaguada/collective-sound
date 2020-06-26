@@ -58,7 +58,7 @@ namespace CollectiveSound.Web.Core.Extensions
             if (!String.IsNullOrEmpty(connectionString))
             {
                 services.AddDbContext<AppDbContext>(options =>
-                   options.UseNpgsql(
+                   options.UseSqlServer(
                        connectionString
                    )
                    .UseLazyLoadingProxies()
@@ -67,7 +67,7 @@ namespace CollectiveSound.Web.Core.Extensions
             else
             {
                 services.AddDbContext<AppDbContext>(options =>
-                   options.UseNpgsql(configuration.GetConnectionString("DefaultConnection"))
+                   options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"))
                    .UseLazyLoadingProxies()
                 );
             }

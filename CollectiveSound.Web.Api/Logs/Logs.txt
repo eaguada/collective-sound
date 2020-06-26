@@ -1,0 +1,391 @@
+2020-06-26 14:31:48.294 -03:00 [INF] Starting web host
+2020-06-26 14:31:51.394 -03:00 [INF] User profile is available. Using 'C:\Users\jeagu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 14:31:52.506 -03:00 [INF] Entity Framework Core 3.1.5 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+2020-06-26 14:31:53.132 -03:00 [INF] Executed DbCommand (43ms) [Parameters=[@__Admin_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[RoleId], [r].[PermissionId]
+FROM [RolePermission] AS [r]
+WHERE [r].[RoleId] = @__Admin_Id_0
+2020-06-26 14:31:53.237 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Guid), @p3='?' (DbType = Guid), @p4='?' (DbType = Guid), @p5='?' (DbType = Guid), @p6='?' (DbType = Guid), @p7='?' (DbType = Guid), @p8='?' (DbType = Guid), @p9='?' (DbType = Guid), @p10='?' (DbType = Guid), @p11='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?' (DbType = Guid), @p14='?' (DbType = Guid), @p15='?' (DbType = Guid), @p16='?' (DbType = Guid), @p17='?' (DbType = Guid), @p18='?' (DbType = Guid), @p19='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p0 AND [PermissionId] = @p1;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p2 AND [PermissionId] = @p3;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p4 AND [PermissionId] = @p5;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p6 AND [PermissionId] = @p7;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p8 AND [PermissionId] = @p9;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p10 AND [PermissionId] = @p11;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p12 AND [PermissionId] = @p13;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p14 AND [PermissionId] = @p15;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p16 AND [PermissionId] = @p17;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p18 AND [PermissionId] = @p19;
+SELECT @@ROWCOUNT;
+2020-06-26 14:31:53.257 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreationDate], [p].[CreatorId], [p].[DisplayName], [p].[ModificationDate], [p].[ModifierId], [p].[Name]
+FROM [Permission] AS [p]
+2020-06-26 14:31:53.289 -03:00 [INF] Executed DbCommand (11ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Guid), @p3='?' (DbType = Guid), @p4='?' (DbType = Guid), @p5='?' (DbType = Guid), @p6='?' (DbType = Guid), @p7='?' (DbType = Guid), @p8='?' (DbType = Guid), @p9='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Permission]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p2;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p3;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p5;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p6;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p7;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p8;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p9;
+SELECT @@ROWCOUNT;
+2020-06-26 14:31:53.322 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Guid), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Guid), @p6='?' (Size = 4000), @p7='?' (DbType = Guid), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Guid), @p10='?' (Size = 4000), @p11='?' (DbType = DateTime2), @p12='?' (DbType = Guid), @p13='?' (Size = 4000), @p14='?' (DbType = Guid), @p15='?' (DbType = DateTime2), @p16='?' (DbType = Guid), @p17='?' (Size = 4000), @p18='?' (DbType = DateTime2), @p19='?' (DbType = Guid), @p20='?' (Size = 4000), @p21='?' (DbType = Guid), @p22='?' (DbType = DateTime2), @p23='?' (DbType = Guid), @p24='?' (Size = 4000), @p25='?' (DbType = DateTime2), @p26='?' (DbType = Guid), @p27='?' (Size = 4000), @p28='?' (DbType = Guid), @p29='?' (DbType = DateTime2), @p30='?' (DbType = Guid), @p31='?' (Size = 4000), @p32='?' (DbType = DateTime2), @p33='?' (DbType = Guid), @p34='?' (Size = 4000), @p35='?' (DbType = Guid), @p36='?' (DbType = DateTime2), @p37='?' (DbType = Guid), @p38='?' (Size = 4000), @p39='?' (DbType = DateTime2), @p40='?' (DbType = Guid), @p41='?' (Size = 4000), @p42='?' (DbType = Guid), @p43='?' (DbType = DateTime2), @p44='?' (DbType = Guid), @p45='?' (Size = 4000), @p46='?' (DbType = DateTime2), @p47='?' (DbType = Guid), @p48='?' (Size = 4000), @p49='?' (DbType = Guid), @p50='?' (DbType = DateTime2), @p51='?' (DbType = Guid), @p52='?' (Size = 4000), @p53='?' (DbType = DateTime2), @p54='?' (DbType = Guid), @p55='?' (Size = 4000), @p56='?' (DbType = Guid), @p57='?' (DbType = DateTime2), @p58='?' (DbType = Guid), @p59='?' (Size = 4000), @p60='?' (DbType = DateTime2), @p61='?' (DbType = Guid), @p62='?' (Size = 4000), @p63='?' (DbType = Guid), @p64='?' (DbType = DateTime2), @p65='?' (DbType = Guid), @p66='?' (Size = 4000), @p67='?' (DbType = DateTime2), @p68='?' (DbType = Guid), @p69='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Permission] ([Id], [CreationDate], [CreatorId], [DisplayName], [ModificationDate], [ModifierId], [Name])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6),
+(@p7, @p8, @p9, @p10, @p11, @p12, @p13),
+(@p14, @p15, @p16, @p17, @p18, @p19, @p20),
+(@p21, @p22, @p23, @p24, @p25, @p26, @p27),
+(@p28, @p29, @p30, @p31, @p32, @p33, @p34),
+(@p35, @p36, @p37, @p38, @p39, @p40, @p41),
+(@p42, @p43, @p44, @p45, @p46, @p47, @p48),
+(@p49, @p50, @p51, @p52, @p53, @p54, @p55),
+(@p56, @p57, @p58, @p59, @p60, @p61, @p62),
+(@p63, @p64, @p65, @p66, @p67, @p68, @p69);
+2020-06-26 14:31:53.327 -03:00 [INF] Executed DbCommand (5ms) [Parameters=[@p70='?' (DbType = Guid), @p71='?' (DbType = Guid), @p72='?' (DbType = Guid), @p73='?' (DbType = Guid), @p74='?' (DbType = Guid), @p75='?' (DbType = Guid), @p76='?' (DbType = Guid), @p77='?' (DbType = Guid), @p78='?' (DbType = Guid), @p79='?' (DbType = Guid), @p80='?' (DbType = Guid), @p81='?' (DbType = Guid), @p82='?' (DbType = Guid), @p83='?' (DbType = Guid), @p84='?' (DbType = Guid), @p85='?' (DbType = Guid), @p86='?' (DbType = Guid), @p87='?' (DbType = Guid), @p88='?' (DbType = Guid), @p89='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [RolePermission] ([RoleId], [PermissionId])
+VALUES (@p70, @p71),
+(@p72, @p73),
+(@p74, @p75),
+(@p76, @p77),
+(@p78, @p79),
+(@p80, @p81),
+(@p82, @p83),
+(@p84, @p85),
+(@p86, @p87),
+(@p88, @p89);
+2020-06-26 14:31:53.347 -03:00 [INF] Creating key "7927e128-2f4f-444c-b9ee-985e5edad81d" with creation date "2020-06-26T17:31:53.3431127+00:00", activation date "2020-06-26T17:31:53.3393228+00:00", and expiration date "2020-09-24T17:31:53.3393228+00:00".
+2020-06-26 14:31:53.370 -03:00 [INF] Writing data to file 'C:\Users\jeagu\AppData\Local\ASP.NET\DataProtection-Keys\key-7927e128-2f4f-444c-b9ee-985e5edad81d.xml'.
+2020-06-26 14:31:53.668 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 14:31:53.668 -03:00 [INF] Hosting environment: Development
+2020-06-26 14:31:53.668 -03:00 [INF] Content root path: C:\Users\jeagu\Source\Repos\eaguada\CSound\CollectiveSound.Web.Api
+2020-06-26 14:31:53.721 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44313/swagger  
+2020-06-26 14:31:53.766 -03:00 [INF] Request finished in 46.4056ms 301 
+2020-06-26 14:31:53.785 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44313/swagger/index.html  
+2020-06-26 14:31:53.818 -03:00 [INF] Request finished in 32.18ms 200 text/html;charset=utf-8
+2020-06-26 14:31:53.852 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44313/swagger/swagger-ui.css  
+2020-06-26 14:31:53.852 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44313/swagger/swagger-ui-bundle.js  
+2020-06-26 14:31:53.852 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44313/swagger/swagger-ui-standalone-preset.js  
+2020-06-26 14:31:53.895 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-06-26 14:31:53.895 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-06-26 14:31:53.895 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-06-26 14:31:53.896 -03:00 [INF] Request finished in 43.6896ms 200 text/css
+2020-06-26 14:31:53.896 -03:00 [INF] Request finished in 43.5663ms 200 application/javascript
+2020-06-26 14:31:53.896 -03:00 [INF] Request finished in 43.6912ms 200 application/javascript
+2020-06-26 14:31:54.058 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44313/swagger/v1/swagger.json  
+2020-06-26 14:31:54.086 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44313/swagger/favicon-32x32.png  
+2020-06-26 14:31:54.087 -03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2020-06-26 14:31:54.087 -03:00 [INF] Request finished in 0.7791ms 200 image/png
+2020-06-26 14:31:54.154 -03:00 [INF] Request finished in 95.8595ms 200 application/json;charset=utf-8
+2020-06-26 14:38:32.275 -03:00 [INF] Starting web host
+2020-06-26 14:38:33.126 -03:00 [INF] User profile is available. Using 'C:\Users\jeagu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 14:38:34.179 -03:00 [INF] Entity Framework Core 3.1.5 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+2020-06-26 14:38:34.642 -03:00 [INF] Executed DbCommand (44ms) [Parameters=[@__Admin_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[RoleId], [r].[PermissionId]
+FROM [RolePermission] AS [r]
+WHERE [r].[RoleId] = @__Admin_Id_0
+2020-06-26 14:38:34.749 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Guid), @p3='?' (DbType = Guid), @p4='?' (DbType = Guid), @p5='?' (DbType = Guid), @p6='?' (DbType = Guid), @p7='?' (DbType = Guid), @p8='?' (DbType = Guid), @p9='?' (DbType = Guid), @p10='?' (DbType = Guid), @p11='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?' (DbType = Guid), @p14='?' (DbType = Guid), @p15='?' (DbType = Guid), @p16='?' (DbType = Guid), @p17='?' (DbType = Guid), @p18='?' (DbType = Guid), @p19='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p0 AND [PermissionId] = @p1;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p2 AND [PermissionId] = @p3;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p4 AND [PermissionId] = @p5;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p6 AND [PermissionId] = @p7;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p8 AND [PermissionId] = @p9;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p10 AND [PermissionId] = @p11;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p12 AND [PermissionId] = @p13;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p14 AND [PermissionId] = @p15;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p16 AND [PermissionId] = @p17;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p18 AND [PermissionId] = @p19;
+SELECT @@ROWCOUNT;
+2020-06-26 14:38:34.770 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreationDate], [p].[CreatorId], [p].[DisplayName], [p].[ModificationDate], [p].[ModifierId], [p].[Name]
+FROM [Permission] AS [p]
+2020-06-26 14:38:34.798 -03:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Guid), @p3='?' (DbType = Guid), @p4='?' (DbType = Guid), @p5='?' (DbType = Guid), @p6='?' (DbType = Guid), @p7='?' (DbType = Guid), @p8='?' (DbType = Guid), @p9='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Permission]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p2;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p3;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p5;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p6;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p7;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p8;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p9;
+SELECT @@ROWCOUNT;
+2020-06-26 14:38:34.831 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Guid), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Guid), @p6='?' (Size = 4000), @p7='?' (DbType = Guid), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Guid), @p10='?' (Size = 4000), @p11='?' (DbType = DateTime2), @p12='?' (DbType = Guid), @p13='?' (Size = 4000), @p14='?' (DbType = Guid), @p15='?' (DbType = DateTime2), @p16='?' (DbType = Guid), @p17='?' (Size = 4000), @p18='?' (DbType = DateTime2), @p19='?' (DbType = Guid), @p20='?' (Size = 4000), @p21='?' (DbType = Guid), @p22='?' (DbType = DateTime2), @p23='?' (DbType = Guid), @p24='?' (Size = 4000), @p25='?' (DbType = DateTime2), @p26='?' (DbType = Guid), @p27='?' (Size = 4000), @p28='?' (DbType = Guid), @p29='?' (DbType = DateTime2), @p30='?' (DbType = Guid), @p31='?' (Size = 4000), @p32='?' (DbType = DateTime2), @p33='?' (DbType = Guid), @p34='?' (Size = 4000), @p35='?' (DbType = Guid), @p36='?' (DbType = DateTime2), @p37='?' (DbType = Guid), @p38='?' (Size = 4000), @p39='?' (DbType = DateTime2), @p40='?' (DbType = Guid), @p41='?' (Size = 4000), @p42='?' (DbType = Guid), @p43='?' (DbType = DateTime2), @p44='?' (DbType = Guid), @p45='?' (Size = 4000), @p46='?' (DbType = DateTime2), @p47='?' (DbType = Guid), @p48='?' (Size = 4000), @p49='?' (DbType = Guid), @p50='?' (DbType = DateTime2), @p51='?' (DbType = Guid), @p52='?' (Size = 4000), @p53='?' (DbType = DateTime2), @p54='?' (DbType = Guid), @p55='?' (Size = 4000), @p56='?' (DbType = Guid), @p57='?' (DbType = DateTime2), @p58='?' (DbType = Guid), @p59='?' (Size = 4000), @p60='?' (DbType = DateTime2), @p61='?' (DbType = Guid), @p62='?' (Size = 4000), @p63='?' (DbType = Guid), @p64='?' (DbType = DateTime2), @p65='?' (DbType = Guid), @p66='?' (Size = 4000), @p67='?' (DbType = DateTime2), @p68='?' (DbType = Guid), @p69='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Permission] ([Id], [CreationDate], [CreatorId], [DisplayName], [ModificationDate], [ModifierId], [Name])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6),
+(@p7, @p8, @p9, @p10, @p11, @p12, @p13),
+(@p14, @p15, @p16, @p17, @p18, @p19, @p20),
+(@p21, @p22, @p23, @p24, @p25, @p26, @p27),
+(@p28, @p29, @p30, @p31, @p32, @p33, @p34),
+(@p35, @p36, @p37, @p38, @p39, @p40, @p41),
+(@p42, @p43, @p44, @p45, @p46, @p47, @p48),
+(@p49, @p50, @p51, @p52, @p53, @p54, @p55),
+(@p56, @p57, @p58, @p59, @p60, @p61, @p62),
+(@p63, @p64, @p65, @p66, @p67, @p68, @p69);
+2020-06-26 14:38:34.834 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p70='?' (DbType = Guid), @p71='?' (DbType = Guid), @p72='?' (DbType = Guid), @p73='?' (DbType = Guid), @p74='?' (DbType = Guid), @p75='?' (DbType = Guid), @p76='?' (DbType = Guid), @p77='?' (DbType = Guid), @p78='?' (DbType = Guid), @p79='?' (DbType = Guid), @p80='?' (DbType = Guid), @p81='?' (DbType = Guid), @p82='?' (DbType = Guid), @p83='?' (DbType = Guid), @p84='?' (DbType = Guid), @p85='?' (DbType = Guid), @p86='?' (DbType = Guid), @p87='?' (DbType = Guid), @p88='?' (DbType = Guid), @p89='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [RolePermission] ([RoleId], [PermissionId])
+VALUES (@p70, @p71),
+(@p72, @p73),
+(@p74, @p75),
+(@p76, @p77),
+(@p78, @p79),
+(@p80, @p81),
+(@p82, @p83),
+(@p84, @p85),
+(@p86, @p87),
+(@p88, @p89);
+2020-06-26 14:38:34.984 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 14:38:34.984 -03:00 [INF] Hosting environment: Development
+2020-06-26 14:38:34.984 -03:00 [INF] Content root path: C:\Users\jeagu\Source\Repos\eaguada\CSound\CollectiveSound.Web.Api
+2020-06-26 14:38:35.010 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44313/swagger/index.html  
+2020-06-26 14:38:35.066 -03:00 [INF] Request finished in 57.9638ms 200 text/html;charset=utf-8
+2020-06-26 14:38:35.300 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44313/swagger/v1/swagger.json  
+2020-06-26 14:38:35.407 -03:00 [INF] Request finished in 107.45ms 200 application/json;charset=utf-8
+2020-06-26 14:49:35.594 -03:00 [INF] Starting web host
+2020-06-26 14:49:36.434 -03:00 [INF] User profile is available. Using 'C:\Users\jeagu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-26 14:49:37.503 -03:00 [INF] Entity Framework Core 3.1.5 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies 
+2020-06-26 14:49:38.860 -03:00 [INF] Executed DbCommand (42ms) [Parameters=[@__Admin_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[RoleId], [r].[PermissionId]
+FROM [RolePermission] AS [r]
+WHERE [r].[RoleId] = @__Admin_Id_0
+2020-06-26 14:49:38.982 -03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Guid), @p3='?' (DbType = Guid), @p4='?' (DbType = Guid), @p5='?' (DbType = Guid), @p6='?' (DbType = Guid), @p7='?' (DbType = Guid), @p8='?' (DbType = Guid), @p9='?' (DbType = Guid), @p10='?' (DbType = Guid), @p11='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?' (DbType = Guid), @p14='?' (DbType = Guid), @p15='?' (DbType = Guid), @p16='?' (DbType = Guid), @p17='?' (DbType = Guid), @p18='?' (DbType = Guid), @p19='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p0 AND [PermissionId] = @p1;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p2 AND [PermissionId] = @p3;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p4 AND [PermissionId] = @p5;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p6 AND [PermissionId] = @p7;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p8 AND [PermissionId] = @p9;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p10 AND [PermissionId] = @p11;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p12 AND [PermissionId] = @p13;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p14 AND [PermissionId] = @p15;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p16 AND [PermissionId] = @p17;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [RolePermission]
+WHERE [RoleId] = @p18 AND [PermissionId] = @p19;
+SELECT @@ROWCOUNT;
+2020-06-26 14:49:39.004 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreationDate], [p].[CreatorId], [p].[DisplayName], [p].[ModificationDate], [p].[ModifierId], [p].[Name]
+FROM [Permission] AS [p]
+2020-06-26 14:49:39.035 -03:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Guid), @p3='?' (DbType = Guid), @p4='?' (DbType = Guid), @p5='?' (DbType = Guid), @p6='?' (DbType = Guid), @p7='?' (DbType = Guid), @p8='?' (DbType = Guid), @p9='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Permission]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p2;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p3;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p5;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p6;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p7;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p8;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Permission]
+WHERE [Id] = @p9;
+SELECT @@ROWCOUNT;
+2020-06-26 14:49:39.067 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Guid), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Guid), @p6='?' (Size = 4000), @p7='?' (DbType = Guid), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Guid), @p10='?' (Size = 4000), @p11='?' (DbType = DateTime2), @p12='?' (DbType = Guid), @p13='?' (Size = 4000), @p14='?' (DbType = Guid), @p15='?' (DbType = DateTime2), @p16='?' (DbType = Guid), @p17='?' (Size = 4000), @p18='?' (DbType = DateTime2), @p19='?' (DbType = Guid), @p20='?' (Size = 4000), @p21='?' (DbType = Guid), @p22='?' (DbType = DateTime2), @p23='?' (DbType = Guid), @p24='?' (Size = 4000), @p25='?' (DbType = DateTime2), @p26='?' (DbType = Guid), @p27='?' (Size = 4000), @p28='?' (DbType = Guid), @p29='?' (DbType = DateTime2), @p30='?' (DbType = Guid), @p31='?' (Size = 4000), @p32='?' (DbType = DateTime2), @p33='?' (DbType = Guid), @p34='?' (Size = 4000), @p35='?' (DbType = Guid), @p36='?' (DbType = DateTime2), @p37='?' (DbType = Guid), @p38='?' (Size = 4000), @p39='?' (DbType = DateTime2), @p40='?' (DbType = Guid), @p41='?' (Size = 4000), @p42='?' (DbType = Guid), @p43='?' (DbType = DateTime2), @p44='?' (DbType = Guid), @p45='?' (Size = 4000), @p46='?' (DbType = DateTime2), @p47='?' (DbType = Guid), @p48='?' (Size = 4000), @p49='?' (DbType = Guid), @p50='?' (DbType = DateTime2), @p51='?' (DbType = Guid), @p52='?' (Size = 4000), @p53='?' (DbType = DateTime2), @p54='?' (DbType = Guid), @p55='?' (Size = 4000), @p56='?' (DbType = Guid), @p57='?' (DbType = DateTime2), @p58='?' (DbType = Guid), @p59='?' (Size = 4000), @p60='?' (DbType = DateTime2), @p61='?' (DbType = Guid), @p62='?' (Size = 4000), @p63='?' (DbType = Guid), @p64='?' (DbType = DateTime2), @p65='?' (DbType = Guid), @p66='?' (Size = 4000), @p67='?' (DbType = DateTime2), @p68='?' (DbType = Guid), @p69='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Permission] ([Id], [CreationDate], [CreatorId], [DisplayName], [ModificationDate], [ModifierId], [Name])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6),
+(@p7, @p8, @p9, @p10, @p11, @p12, @p13),
+(@p14, @p15, @p16, @p17, @p18, @p19, @p20),
+(@p21, @p22, @p23, @p24, @p25, @p26, @p27),
+(@p28, @p29, @p30, @p31, @p32, @p33, @p34),
+(@p35, @p36, @p37, @p38, @p39, @p40, @p41),
+(@p42, @p43, @p44, @p45, @p46, @p47, @p48),
+(@p49, @p50, @p51, @p52, @p53, @p54, @p55),
+(@p56, @p57, @p58, @p59, @p60, @p61, @p62),
+(@p63, @p64, @p65, @p66, @p67, @p68, @p69);
+2020-06-26 14:49:39.070 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p70='?' (DbType = Guid), @p71='?' (DbType = Guid), @p72='?' (DbType = Guid), @p73='?' (DbType = Guid), @p74='?' (DbType = Guid), @p75='?' (DbType = Guid), @p76='?' (DbType = Guid), @p77='?' (DbType = Guid), @p78='?' (DbType = Guid), @p79='?' (DbType = Guid), @p80='?' (DbType = Guid), @p81='?' (DbType = Guid), @p82='?' (DbType = Guid), @p83='?' (DbType = Guid), @p84='?' (DbType = Guid), @p85='?' (DbType = Guid), @p86='?' (DbType = Guid), @p87='?' (DbType = Guid), @p88='?' (DbType = Guid), @p89='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [RolePermission] ([RoleId], [PermissionId])
+VALUES (@p70, @p71),
+(@p72, @p73),
+(@p74, @p75),
+(@p76, @p77),
+(@p78, @p79),
+(@p80, @p81),
+(@p82, @p83),
+(@p84, @p85),
+(@p86, @p87),
+(@p88, @p89);
+2020-06-26 14:49:39.227 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-26 14:49:39.227 -03:00 [INF] Hosting environment: Development
+2020-06-26 14:49:39.227 -03:00 [INF] Content root path: C:\Users\jeagu\Source\Repos\eaguada\CSound\CollectiveSound.Web.Api
+2020-06-26 14:49:39.255 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44313/swagger/index.html  
+2020-06-26 14:49:39.310 -03:00 [INF] Request finished in 56.1732ms 200 text/html;charset=utf-8
+2020-06-26 14:49:39.494 -03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44313/swagger/v1/swagger.json  
+2020-06-26 14:49:39.607 -03:00 [INF] Request finished in 113.9277ms 200 application/json;charset=utf-8
