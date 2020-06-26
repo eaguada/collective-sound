@@ -73,7 +73,6 @@ namespace CollectiveSound.Web.Api
             });
 
             app.UseCors(_configuration["App:CorsOriginPolicyName"]);
-            app.UseHttpsRedirection();
             app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();
