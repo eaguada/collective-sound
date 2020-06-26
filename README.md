@@ -16,23 +16,21 @@ comment / provide feedback / rate your release in order to get the download link
 
 ## Installation Steps
 
-. Run the solution with VS2019
+. Select `CollectiveSound.Web.Api` as the default project
 
-. Select CollectiveSound.Web.Api as the default project
+. Open up the "**Package Manager Console**" select the `CollectiveSound.EntityFramework` project and run the command `update-database`
 
-. Open up the Package Manager Console, select the project CollectiveSound.EntityFramework and run the command "update-database"
+. Run the project with **F5** (it will go straight to the Swagger API documentation page)
 
-. Run the project with F5 (it will go straight to the Swagger API documentation page)
+. Open up your terminal on the `CollectiveSound.Web.UI` folder
 
-. Open up your terminal on the CollectiveSound.Web.UI folder
-
-  . Run
+  . Run the next commands:
 	
 ```bash
 yarn install
 yarn serve
 ```
 	
-  . Open a new browser tab and go to http://localhost:8080
+  . Open a new browser tab and go to **http://localhost:8080**
 	
-  . The admin credentials are admin/123qwe
+  . The admin credentials are **admin/123qwe**
