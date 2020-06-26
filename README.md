@@ -20,7 +20,7 @@ comment / provide feedback / rate your release in order to get the download link
 
 . Select CollectiveSound.Web.Api as the default project
 
-. Open up the Nuget Package Manager Console, select the project CollectiveSound.EntityFramework and run the command "update-database"
+. Open up the Package Manager Console, select the project CollectiveSound.EntityFramework and run the command "update-database"
 
 . Run the project with F5 (it will go straight to the Swagger API documentation page)
 
